@@ -1,0 +1,1 @@
+/home/yinquan/worktree/pickup/build-demo/CMakeFiles/pickup.dir

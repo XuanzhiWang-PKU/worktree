@@ -1,0 +1,318 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec479108159/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec479108159.dir/build.make CMakeFiles/cmTryCompileExec479108159.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec479108159.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec479108159.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec479108159
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec479108159.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec479108159.dir/CheckSymbolExists.c.o  -o cmTryCompileExec479108159 -rdynamic 
+CMakeFiles/cmTryCompileExec479108159.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec479108159] 错误 1
+make: *** [cmTryCompileExec479108159/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3664720708/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3664720708.dir/build.make CMakeFiles/cmTryCompileExec3664720708.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3664720708.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3664720708.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3664720708
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3664720708.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3664720708.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3664720708 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3664720708] 错误 1
+make: *** [cmTryCompileExec3664720708/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec708614923/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec708614923.dir/build.make CMakeFiles/cmTryCompileExec708614923.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec708614923.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec708614923.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec708614923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec708614923.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec708614923.dir/CheckSymbolExists.c.o  -o cmTryCompileExec708614923 -rdynamic 
+CMakeFiles/cmTryCompileExec708614923.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec708614923] 错误 1
+make: *** [cmTryCompileExec708614923/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3701310093/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3701310093.dir/build.make CMakeFiles/cmTryCompileExec3701310093.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3701310093.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3701310093.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3701310093
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3701310093.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3701310093.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3701310093 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3701310093] 错误 1
+make: *** [cmTryCompileExec3701310093/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1037586660/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1037586660.dir/build.make CMakeFiles/cmTryCompileExec1037586660.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1037586660.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1037586660.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1037586660
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1037586660.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1037586660.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1037586660 -rdynamic 
+CMakeFiles/cmTryCompileExec1037586660.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec1037586660] 错误 1
+make: *** [cmTryCompileExec1037586660/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec124887156/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec124887156.dir/build.make CMakeFiles/cmTryCompileExec124887156.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec124887156.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec124887156.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec124887156
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec124887156.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec124887156.dir/CheckFunctionExists.c.o  -o cmTryCompileExec124887156 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec124887156] 错误 1
+make: *** [cmTryCompileExec124887156/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2109881466/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2109881466.dir/build.make CMakeFiles/cmTryCompileExec2109881466.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2109881466.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec2109881466.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec2109881466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2109881466.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2109881466.dir/CheckSymbolExists.c.o  -o cmTryCompileExec2109881466 -rdynamic 
+CMakeFiles/cmTryCompileExec2109881466.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2109881466] 错误 1
+make: *** [cmTryCompileExec2109881466/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3114879148/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3114879148.dir/build.make CMakeFiles/cmTryCompileExec3114879148.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3114879148.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3114879148.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3114879148
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3114879148.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3114879148.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3114879148 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec3114879148] 错误 1
+make: *** [cmTryCompileExec3114879148/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec570824806/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec570824806.dir/build.make CMakeFiles/cmTryCompileExec570824806.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec570824806.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec570824806.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec570824806
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570824806.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec570824806.dir/CheckSymbolExists.c.o  -o cmTryCompileExec570824806 -rdynamic 
+CMakeFiles/cmTryCompileExec570824806.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec570824806] 错误 1
+make: *** [cmTryCompileExec570824806/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2150862025/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2150862025.dir/build.make CMakeFiles/cmTryCompileExec2150862025.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2150862025.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2150862025.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2150862025
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2150862025.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2150862025.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2150862025 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec2150862025] 错误 1
+make: *** [cmTryCompileExec2150862025/fast] 错误 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec228341001/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec228341001.dir/build.make CMakeFiles/cmTryCompileExec228341001.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec228341001.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec228341001.dir/CheckSymbolExists.c.o   -c /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec228341001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec228341001.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec228341001.dir/CheckSymbolExists.c.o  -o cmTryCompileExec228341001 -rdynamic 
+CMakeFiles/cmTryCompileExec228341001.dir/CheckSymbolExists.c.o：在函数‘main’中：
+CheckSymbolExists.c:(.text+0x16)：对‘pthread_create’未定义的引用
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec228341001] 错误 1
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec228341001/fast] 错误 2
+
+File /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1554194728/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1554194728.dir/build.make CMakeFiles/cmTryCompileExec1554194728.dir/build
+make[1]: 正在进入目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1554194728.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1554194728.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1554194728
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1554194728.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1554194728.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1554194728 -rdynamic -lpthreads 
+/usr/bin/ld: 找不到 -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1554194728] 错误 1
+make[1]:正在离开目录 `/home/yinquan/worktree/pickup/build-demo/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1554194728/fast] 错误 2
+
+
